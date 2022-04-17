@@ -4,6 +4,8 @@ const mat4 = glMatrix.mat4;
 //Global gl context
 let gl;
 
+main();
+
 async function main()
 {
     //NOTE(Auto): Setup webGL context so we can use the api
